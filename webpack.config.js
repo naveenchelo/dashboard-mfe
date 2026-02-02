@@ -4,7 +4,7 @@ const {
 } = require("@angular-architects/module-federation/webpack");
 
 module.exports = withModuleFederationPlugin({
-  name: "dashboard-mfe",
+  name: "dashboard",
 
   exposes: {
     "./DashboardModule": "./src/app/dashboard/dashboard.module.ts",
